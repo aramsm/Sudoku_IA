@@ -1,6 +1,9 @@
-div {
-	margin: 5px;
+* {
+    box-sizing: border-box;
 }
-quadrante {
-	
-}
+
+input { width:1.2em; text-align: center; border: none; font-size: 24px; color: rgb(0,122,255); }
+input[readonly] { color: rgb(50,50,50); }
+table { border-collapse: collapse; }
+td { border: 1px solid #ccc; }
+button { font-size: 24px; }
